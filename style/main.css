@@ -7,7 +7,7 @@
     font-style: normal;
 }
 .navbar{
-    width: 100%;
+    width: 100vw;
     height: 80px;
     background: rgb(168, 57, 57);
 
@@ -18,9 +18,18 @@
 .padding{
     padding-right: 20px;
 }
-
+.left{
+    padding: 0 20px;
+}
+.backery{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://static.standard.co.uk/2023/05/17/17/newFile-6.jpg?quality=75&auto=webp&width=960");
+    background-size: cover;
+    font-size: 40px;
+}
 .font{
-font-size: 40px;
+font-size: 8px;
 }
 .magin{
     margin: 20px 20px;
@@ -50,12 +59,14 @@ font-size: 40px;
     background: rgba(222, 68, 40, 0.934);
 }
 .bg-gray{
-    background: rgb(235, 236, 226);
+    background: rgb(242, 243, 233);
 }
 .color{
     color: white;
 }
-
+.bg-white{
+    background: white;
+}
 .gap{
     gap: 80px;
 }
@@ -73,4 +84,23 @@ a:hover{
 }
 .bold{
     font-weight: bold;
+}
+.typeBreads{
+    width: 100vw;
+    height: 100vh;
+}
+.box1{
+    width: 320px;
+    height: 400px;
+}
+.Ryebread{
+    width: 320px;
+    height: 200px;
+}
+
+.border-r1{
+    border-radius: 10px;
+}
+.border-r2{
+    border-radius: 10px 10px 0 0;
 }
