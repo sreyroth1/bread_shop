@@ -31,6 +31,9 @@
 .font{
 font-size: 8px;
 }
+.font2{
+    font-size: 40px;
+}
 .magin{
     margin: 20px 20px;
 }
@@ -61,8 +64,14 @@ font-size: 8px;
 .bg-gray{
     background: rgb(242, 243, 233);
 }
+.bg-brown{
+    background: rgb(231, 166, 166);
+}
 .color{
     color: white;
+}
+.color-brown{
+    color: brown;
 }
 .bg-white{
     background: white;
@@ -70,6 +79,7 @@ font-size: 8px;
 .gap{
     gap: 80px;
 }
+
 .list{
     list-style-type: none;
 }
@@ -80,7 +90,7 @@ a:hover{
     justify-content: space-around;
 }
 .bg-blue{
-    color: blue;
+    background: rgb(181, 181, 249);
 }
 .bold{
     font-weight: bold;
@@ -92,6 +102,7 @@ a:hover{
 .box1{
     width: 320px;
     height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .Ryebread{
     width: 320px;
@@ -103,4 +114,17 @@ a:hover{
 }
 .border-r2{
     border-radius: 10px 10px 0 0;
+}
+.buy{
+    background: greenyellow;
+    width: 60px;
+    height: 32px;
+    border: none;
+    border-radius: 10px;
+}
+.justify-end{
+    justify-content: end;
+}
+.align-end{
+    align-items: end;
 }
