@@ -97,10 +97,10 @@ a.active{
     align-items: center;
 }
 
- h1{
+.nav-bar h1{
     color: #fff;
     font-weight: 400;
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .main{
@@ -112,8 +112,8 @@ a.active{
 
 .left-side{
     max-width: 50%;
-    padding: 20px 30px 0;
-    background-color: red;
+    padding: 30px 40px ;
+    /* background-color: red; */
 }
 
 .left-side h2{
@@ -126,8 +126,10 @@ a.active{
 .item{
     display: flex;
     margin-top: 30px;
+    width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* background-color: red; */
 }
 
 .left-side p{
@@ -138,6 +140,8 @@ a.active{
     display: flex;
     margin-right: 10px;
     margin: 20px 0;
+    width: 450px;
+    
 }
 
  span{
@@ -149,4 +153,107 @@ a.active{
     display: flex;
     margin-right: 10px;
     margin: 20px 0;
+}
+
+.contact{
+    margin: 20px;
+}
+.contact h3{
+    
+    color: #fff;
+    font-weight:300 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.technology i{
+    margin: 30px;
+    font-size: 2em;
+}
+
+.right-side{
+    width: 100%;
+    padding: 20px 0px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: red; */
+}
+
+.right-side h1{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.contact-us {
+    /* background-color: blue; */
+    padding: 20px 0;
+}
+
+.input-box input{
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(220, 218, 218);
+    margin-bottom:10px ;
+    padding: 0 14px;
+    outline: none;
+
+}
+.input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject input{
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 30px;
+    background: rgb(220, 218, 218);
+    padding: 0 14px;
+    outline: none;
+}
+.Environment textarea{
+    height:200px ;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 14px;
+    background: rgb(220, 218, 218);
+    outline: none;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background: url(https://media.istockphoto.com/id/915217338/photo/luxury-table-setting.jpg?s=612x612&w=0&k=20&c=RA6kSajhXczVFhkN09gdEMqrGcSTFnE9m8ABZGl_-7A=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+
+.footer button{
+    background-color: rgb(194, 158, 95);
+    height: 50px;
+    /* padding: 20px; */
+    color: #fff;
+    font-size: 14px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+.footer button:hover{
+    color: blue;
 }
