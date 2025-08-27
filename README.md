@@ -1,6 +1,5 @@
 # bread_shop
 
-# Schoolmanagement
 ![developer](https://img.shields.io/badge/Developed%20By%20%3A-Team%201-brown)
 ---
 ## screenshots
