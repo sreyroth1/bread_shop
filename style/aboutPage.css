@@ -168,9 +168,7 @@ button:hover{
 }
 
 .best-seller-text {
-    padding-top: 20px;
     text-align: center;
-    /* padding-bottom: 20px; */
 
 }
 
@@ -222,7 +220,7 @@ p {
 }
 
 .text {
-    padding-left: 15px;
+    padding-left: 8px;
     font-size: 1.2em;
     margin: 10px 0;
     color: #6b4226;
