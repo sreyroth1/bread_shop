@@ -14,22 +14,26 @@
     background: rgb(168, 57, 57);
 
 }
-
+a.active{
+    color: blueviolet;
+}
 .img {
     width: 160px;
     object-fit: contain;
 }
-
+.navbar-h2{
+    padding-bottom: 20px;
+}
 .padding {
     padding-right: 20px;
 }
 
 .font {
-    margin-bottom: 20px;
     font-size: 40px;
 }
 
 .magin {
+    
     margin: 20px 20px;
 }
 
@@ -403,9 +407,3 @@ footer {
     color: white;
 }
 
-@media (max-width: 768px) {
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-    }
-}
