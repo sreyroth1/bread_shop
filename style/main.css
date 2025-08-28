@@ -13,8 +13,10 @@
     background: rgb(168, 57, 57);
 
 }
-.img{
-    width: 120px;
+
+.img {
+    width: 160px;
+    object-fit: contain;
 }
 .img2{
     width: 80px;
@@ -29,6 +31,10 @@
 .left{
     padding: 0 20px;
 }
+.list {
+    list-style-type: none;
+}
+
 .backery{
     width: 100vw;
     height: 100vh;

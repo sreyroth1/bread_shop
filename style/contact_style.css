@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: rgb(54, 46, 46);
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background: rgb(168, 57, 57);
+
+}
+.img {
+    width: 160px;
+    object-fit: contain;
+}
+.padding{
+    padding-right: 20px;
+}
+
+.font{
+font-size: 40px;
+}
+.magin{
+    margin: 20px 20px;
+}
+.between{
+    justify-content: space-between;
+}
+.diplay{
+    display: flex;
+}
+.align{
+    align-items: center;
+}
+.column{
+    flex-direction: column;
+}
+.justify{
+    justify-content: center;
+}
+.row{
+    flex-direction: row;
+}
+.text-d{
+    text-decoration: none;
+}
+.bg-orange{
+    background: rgba(222, 68, 40, 0.934);
+}
+.bg-gray{
+    background: rgb(235, 236, 226);
+}
+.color{
+    color: white;
+}
+
+.gap{
+    gap: 80px;
+}
+.list{
+    list-style-type: none;
+}
+a:hover{
+    color: blueviolet;
+    
+}
+a.active{
+    color: blueviolet;
+}
+.around{
+    justify-content: space-around;
+}
+.bg-blue{
+    color: blue;
+}
+.bold{
+    font-weight: bold;
+}
+.text-equal{
+    text-align: justify;
+}
+
+.nav-bar{
+    width: 100%;
+    height: 200px;
+    background: url(../img/bg-conatactpage.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar h1{
+    color: #fff;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.main{
+    display: flex;
+    padding: 40px;
+    background-color: rgb(95, 81, 64);
+
+}
+
+.left-side{
+    max-width: 50%;
+    padding: 30px 40px ;
+    /* background-color: red; */
+}
+
+.left-side h2{
+    color:#fff;
+    font-weight: 400;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.item{
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color: red; */
+}
+
+.left-side p{
+    color: #fff;
+}
+
+.icon{
+    display: flex;
+    margin-right: 10px;
+    margin: 20px 0;
+    width: 450px;
+    
+}
+
+ span{
+    color: #fff;
+    padding-right:10px ;
+}
+
+.icon2{
+    display: flex;
+    margin-right: 10px;
+    margin: 20px 0;
+}
+
+.contact{
+    margin: 20px;
+}
+.contact h3{
+    
+    color: #fff;
+    font-weight:300 ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.technology i{
+    margin: 30px;
+    font-size: 2em;
+}
+
+.right-side{
+    width: 100%;
+    padding: 20px 0px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* background-color: red; */
+}
+
+.right-side h1{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.contact-us {
+    /* background-color: blue; */
+    padding: 20px 0;
+}
+
+.input-box input{
+    height: 50px;
+    width: 400px;
+    border: none;
+    border-radius: 4px;
+    background: rgb(220, 218, 218);
+    margin-bottom:10px ;
+    padding: 0 14px;
+    outline: none;
+
+}
+.input-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subject input{
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 30px;
+    background: rgb(220, 218, 218);
+    padding: 0 14px;
+    outline: none;
+}
+.Environment textarea{
+    height:200px ;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    padding: 20px 14px;
+    background: rgb(220, 218, 218);
+    outline: none;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background: url(https://media.istockphoto.com/id/915217338/photo/luxury-table-setting.jpg?s=612x612&w=0&k=20&c=RA6kSajhXczVFhkN09gdEMqrGcSTFnE9m8ABZGl_-7A=);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+
+}
+
+.footer button{
+    background-color: rgb(194, 158, 95);
+    height: 50px;
+    /* padding: 20px; */
+    color: #fff;
+    font-size: 14px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+.footer button:hover{
+    color: blue;
+}
