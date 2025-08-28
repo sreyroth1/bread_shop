@@ -9,6 +9,7 @@
 }
 
 .navbar {
+    
     width: 100%;
     height: 80px;
     background: rgb(168, 57, 57);
@@ -22,9 +23,11 @@ a.active{
     object-fit: contain;
 }
 .navbar-h2{
+    
     padding-bottom: 20px;
 }
 .padding {
+    
     padding-right: 20px;
 }
 
@@ -38,17 +41,22 @@ a.active{
 }
 
 .between {
+    
     justify-content: space-between;
 }
 
 .diplay {
+   
     display: flex;
 }
 
 .align {
+    
     align-items: center;
 }
-
+.list{
+     margin-right: 25px;
+}
 .column {
     flex-direction: column;
 }
