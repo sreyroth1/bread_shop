@@ -205,7 +205,9 @@ button:hover {
 .card:hover {
     transform: translateY(-5px);
 }
-
+a.active{
+    color: blueviolet;
+}
 .best-seller-01 {
     transition: transform 0.2s;
     background-color: rgb(249, 249, 223);
