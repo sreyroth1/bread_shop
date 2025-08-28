@@ -100,6 +100,9 @@ font-size: 8px;
 a:hover{
     color: blueviolet;
 }
+a:active{
+    color: blueviolet;
+}
 .around{
     justify-content: space-around;
 }
