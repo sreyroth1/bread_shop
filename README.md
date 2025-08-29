@@ -27,8 +27,18 @@ Homepage we do it for product in our shop.In homepage have a lot of product. Hom
 
 ## Install 
 
-Bread shop also has on website and App. So to use it you need to install it on app store or play store or click on link below:
+Bread shop also has on website and App. So to use it you need to install it on app store or play store or click on link.
+[Click Here](https://pncbread.netlify.app/)
 
 ## Team Members
 In our team we have 3 members:
+
+#### SANG SREYROTH
+![alt text](image-2.png)
+
+#### SIM SOMNANG
+![alt text](image-3.png)
+
+#### PENH BOREY
+![alt text](image-4.png)
 
